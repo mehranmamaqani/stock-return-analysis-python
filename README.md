@@ -1,3 +1,4 @@
+<img width="715" height="470" alt="download (1)" src="https://github.com/user-attachments/assets/99596917-b19e-4cc3-827a-81ac9e4dbbc8" />
 # Stock Return Analysis using Python
 
 ## Objective
