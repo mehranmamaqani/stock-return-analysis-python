@@ -64,7 +64,36 @@ The project includes:
 ### CAPM Regression
 
 ![CAPM Regression](images/capm_regression.png)
+## Multi-Stock CAPM Comparison
 
+The project was extended to compare multiple stocks using CAPM regression.
+
+Analyzed stocks:
+- Apple (AAPL)
+- Microsoft (MSFT)
+- Tesla (TSLA)
+
+| Stock | Beta | Alpha | R² | Volatility |
+|------|------|-------|----|------------|
+| AAPL | 1.173 | 0.000524 | 0.625 | 0.0200 |
+| MSFT | 1.174 | 0.000329 | 0.675 | 0.0192 |
+| TSLA | 1.578 | 0.002112 | 0.251 | 0.0423 |
+
+### Key Findings
+
+- Tesla has the highest beta and volatility, indicating higher sensitivity and risk.
+- Apple and Microsoft show stronger relationships with overall market movements.
+- CAPM explains a larger portion of return variation for AAPL and MSFT compared to TSLA.
+
+### Comparison Visualizations
+
+#### Beta Comparison
+
+![Beta Comparison](images/beta_comparison.png)
+
+#### Volatility Comparison
+
+![Volatility Comparison](images/volatility_comparison.png)
 ## Data Source
 
 Historical price data was obtained using the Yahoo Finance API through the `yfinance` Python library.
