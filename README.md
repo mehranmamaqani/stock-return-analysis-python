@@ -55,6 +55,15 @@ The project includes:
 - Daily return visualization
 - CAPM scatter plot
 - Regression line showing the relationship between market and stock returns
+- ## Visualizations
+
+### Daily Returns
+
+![Daily Returns](images/daily_returns.png)
+
+### CAPM Regression
+
+![CAPM Regression](images/capm_regression.png)
 
 ## Data Source
 
