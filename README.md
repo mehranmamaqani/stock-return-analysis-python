@@ -107,4 +107,9 @@ Future extensions of this project include:
 - Implementing Fama-French factor models
 - Using longer historical periods
 - Building interactive dashboards
-- 
+
+## Jupyter Notebook
+
+A complete step-by-step analysis is available in the Jupyter Notebook:
+
+[Stock Return Analysis Notebook](stock_return_analysis.ipynb)
